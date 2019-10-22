@@ -1,0 +1,12 @@
+### Ansible ###
+*.retry
+
+### PyCharm ###
+.idea/
+
+### VisualStudioCode ###
+.vscode/
+.history
+
+### Pem files ###
+*.pem

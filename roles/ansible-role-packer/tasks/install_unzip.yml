@@ -1,0 +1,5 @@
+---
+- name: Install unzip packages
+  package:
+    name: unzip
+    state: present

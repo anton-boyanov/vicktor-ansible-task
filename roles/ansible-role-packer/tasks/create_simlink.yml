@@ -1,0 +1,8 @@
+---
+- name: Create a symbolic link for Packer
+  file:
+    src: /usr/local/packer
+    dest: /usr/local/bin/packer.io
+    owner: ansible
+    group: ansible
+    state: link

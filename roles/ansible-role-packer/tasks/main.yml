@@ -1,0 +1,12 @@
+---
+- name: Install Unzip
+  include_tasks: install_unzip.yml
+
+  #- name: Add Packer repository
+  #  include_tasks: add_packer_repo.yml
+
+- name: Install Packer using unzip command
+  include_tasks: install_packer.yml
+
+- name: Create Simlink for Packer
+  include_tasks: create_simlink.yml
