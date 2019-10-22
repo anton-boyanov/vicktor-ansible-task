@@ -1,2 +1,3 @@
 ---
-
+packer_version: "0.12.2"
+packer_repo: "https://releases.hashicorp.com/packer/{{ packer_version }}/packer_{{ packer_version }}_linux_amd64.zip"
